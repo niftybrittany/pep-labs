@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 
 /**
  * This class contains two constructors, but currently the constructors have no behavior,
@@ -17,19 +19,7 @@ public class Player {
     public String playerName;
     public int level;
 
-    public static void main (String [] args){
-       this
-        Player newPlayer = new Player ("playerName");
-        newPlayer.level = 1;
-        
-
-        System.out.println(result);
-
-        Player newPlayer2 = new Player ("playerName", level);
-        newPlayer.level = 1;
     
-    this.level = 1;
-    system.ou
    
 
     /**
@@ -47,6 +37,10 @@ public class Player {
      */
     public Player(String playerName){
 
+            
+            this.playerName = (playerName);
+            this.level = 1;
+        
     }
 
     /**
@@ -63,7 +57,8 @@ public class Player {
      * @param level the starting level of the player to be created.
      */
     public Player(String playerName, int level){
-        Player newPlayer2 = new Player(playerName, level);
+       this.playerName = (playerName);
+       this.level = (level);
     }
 
 }
