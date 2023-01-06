@@ -17,6 +17,19 @@ public class Player {
     public String playerName;
     public int level;
 
+    public static void main (String [] args){
+       this
+        Player newPlayer = new Player ("playerName");
+        newPlayer.level = 1;
+        
+
+        System.out.println(result);
+
+        Player newPlayer2 = new Player ("playerName", level);
+        newPlayer.level = 1;
+    
+    this.level = 1;
+    system.ou
    
 
     /**
