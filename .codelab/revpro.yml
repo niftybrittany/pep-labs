@@ -40,12 +40,12 @@
     :git_user_name: Brittany Glaze
 :progress:
   :count_labs_total: 96
-  :count_labs_passed: 0
+  :count_labs_passed: 1
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 1
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 1
   Start:
     :Week: 1
     :Order: 1
@@ -323,9 +323,9 @@
     :Order: 3
     :Type: lab
     :count_tests: 1
-    :count_tests_passed: 0
+    :count_tests_passed: 1
     :tests:
-      customExceptionTest1: 0
+      customExceptionTest1: 1
   Lists:
     :Week: 3
     :Order: 4
