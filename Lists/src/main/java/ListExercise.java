@@ -31,16 +31,9 @@ public class ListExercise {
      */
     public List<Integer> createList(){
         
-        ArrayList<Integer> valuesList = new ArrayList<>();
-        valuesList.add (1);
-        valuesList.add (3);
-        valuesList.add (5);
-        valuesList.add (7);
-        valuesList.add (9);
-        valuesList.add (11);
+       ArrayList<Integer> list = new ArrayList<>();
 
-        
-        return valuesList;
+        return list;
     }
 
     /**
@@ -51,12 +44,6 @@ public class ListExercise {
      */
     public int getSize(List<Integer> list){
     
-        list = new ArrayList<Integer>();
-
-        list.add(1);
-        list.add(9);
-        list.add(6);
-        
         return list.size();
     }
 
@@ -69,10 +56,8 @@ public class ListExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void addToList(List<Integer> list, int value){
-        while(true){
-            list = new ArrayList<>();
-            list.add(value);
-        }
+        
+        list.add(value);
     }
 
     /**
@@ -88,7 +73,7 @@ public class ListExercise {
      * @return the int at the location in 'list' represented by 'index'.
      */
     public int get(List<Integer> list, int index){
-        return 0;
+        return list.get(index);
     }
 
     /**
@@ -101,7 +86,7 @@ public class ListExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void removeFromList(List<Integer> list, int position){
-
+        list.remove(position);
     }
 
     /**
@@ -114,5 +99,6 @@ public class ListExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void updateAtPosition(List<Integer> list, int position, int value){
+        list.set(position, value);
     }
 }
