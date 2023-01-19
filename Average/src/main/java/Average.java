@@ -18,6 +18,10 @@ public class Average {
      * @return the average of all the values of nums.
      */
     public double getAvg(int[] nums){
-        return 0;
+        double sum = 0;
+        
+        int max = Collections.max(Arrays.asList(nums));
+
+        return max;
     }
 }
