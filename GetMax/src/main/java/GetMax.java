@@ -1,3 +1,6 @@
+import java.util.Arrays;
+
+
 public class GetMax {
     /**
      * This method should return the max value of arr (the largest int.)
@@ -7,6 +10,9 @@ public class GetMax {
      * @return the largest value in arr.
      */
     public int max(int[] arr){
-        return -1;
+        
+        int max = Arrays.stream(arr).max().getAsInt();
+
+        return max;
     }
 }
