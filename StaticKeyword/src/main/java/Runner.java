@@ -3,7 +3,7 @@ public class Runner {
     /**
      * This challenge is about interacting with static variables.
      *
-     * You task is simply to change the variable global_var from Class to the value of 'in' given in the parameters.
+     * Your task is simply to change the variable global_var from Class to the value of 'in' given in the parameters.
      * As you do so, notice that you're interacting with the CLASS and not an OBJECT. This is because due to the static
      * keyword. The static keyword causes methods and variables to belong to the class definition rather than an
      * object. We've seen Static used plenty of times: the main method is static because no objects could possibly
