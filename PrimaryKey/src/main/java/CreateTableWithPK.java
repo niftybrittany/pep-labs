@@ -29,11 +29,7 @@ import java.sql.Statement;
  *      |3      |"user3"               |"pass123"                |
  *
  *      The SQL syntax would be as follows:
- *      CREATE TABLE site_user (
- *          id SERIAL PRIMARY KEY,
- *          username varchar(100),
- *          password varchar(100)
- *      );
+ *     
  *
  *      The datatype "SERIAL" is an int that will autogenerate a unique number for us.
  *      The constraint "PRIMARY KEY" identifies the id column as the primary key column.
