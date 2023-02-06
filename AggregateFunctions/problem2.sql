@@ -1,0 +1,1 @@
+SELECT COUNT(first_name) FROM employee WHERE first_name='Steve';
