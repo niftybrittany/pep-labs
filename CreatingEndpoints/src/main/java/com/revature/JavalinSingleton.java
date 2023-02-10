@@ -1,10 +1,13 @@
 package com.revature;
 
 import io.javalin.Javalin;
+import io.javalin.http.Context;
 
 public class JavalinSingleton {
 
     
+    private static Context result;
+
     /**
      * Lab: Create an HTTP GET endpoint at the url: http://localhost:9000/hello that will return the string "Hello
      * World" in the response.
@@ -14,8 +17,10 @@ public class JavalinSingleton {
     public static Javalin getInstance(){
         Javalin app = Javalin.create();
         
-        //write endpoint here
+        app.get("/hello", ctx -> {
 
+            ctx.result("Hello World");
+        });
         return app;
     }
     
