@@ -1,4 +1,4 @@
-# Javalin Lab: Retrieving Data from the body of an HTTP Request
+.9# Javalin Lab: Retrieving Data from the body of an HTTP Request
 
 Now that we have learned how to create a webserver and define endpoints with Javalin, we need to learn how to
 retrieve data from the HTTP requests.

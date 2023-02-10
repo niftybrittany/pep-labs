@@ -1,6 +1,13 @@
 package com.revature;
 
+import static org.junit.Assume.assumeFalse;
+
+import java.text.AttributedString;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 import io.javalin.Javalin;
+import io.javalin.http.Context;
 
 /**
  * Background: A json string representing a song will be sent in this POST request with the following fields: 
@@ -17,8 +24,14 @@ public class JavalinSingleton {
          * Note: Please refer to the "RequestBody.MD" file for more assistance if needed.
          */
         app.post("/problem1", ctx -> {
-                //implement logic here
+            String jsonString = ctx.body();
+
+            ObjectMapper om = new ObjectMapper();
+            Song song = om.readValue(jsonString, Song.class);
+            ctx.result(song.getArtistName());  
+            
         });
+        
 
         /**
          * problem2: retrieve the song object from the request body...
@@ -28,7 +41,19 @@ public class JavalinSingleton {
          * Note: Please refer to the "RequestBody.MD" file for more assistance if needed.
          */
         app.post("/problem2", ctx -> {
-               //implement logic here
+            String jsonString = ctx.body();
+
+            ObjectMapper om = new ObjectMapper();
+            Song song = om.readValue(jsonString, Song.class);
+
+            ctx.contentType("application/json"); 
+
+            song.setArtistName("Beatles");
+
+            String artistNameReturned = om.writeValueAsString(song);
+
+            ctx.result(artistNameReturned);
+             
         });
 
 
