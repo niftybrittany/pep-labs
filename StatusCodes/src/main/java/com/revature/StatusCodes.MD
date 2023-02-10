@@ -1,3 +1,4 @@
+
 # Javalin Lab: Changing the Status Code in an HTTP Response
 
 As we mentioned in the first Javalin lab, status codes are how we tell the client machine how successful the HTTP 
