@@ -31,6 +31,7 @@ public class AuthorDAO {
             String sql = "SELECT * FROM Author";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             ResultSet rs = preparedStatement.executeQuery();
+
             while(rs.next()){
                 Author author = new Author(rs.getInt("id"), rs.getString("name"));
                 authors.add(author);
@@ -52,12 +53,14 @@ public class AuthorDAO {
         try {
 //          Write SQL logic here. You should only be inserting with the name column, so that the database may
 //          automatically generate a primary key.
-            String sql = "change me" ;
+            String sql = "INSERT INTO Author (name) VALUES(?)";
             PreparedStatement preparedStatement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
 
             //write preparedStatement's setString method here.
-            
+            preparedStatement.setString(1,author.getName());
+
             preparedStatement.executeUpdate();
+
             ResultSet pkeyResultSet = preparedStatement.getGeneratedKeys();
             if(pkeyResultSet.next()){
                 int generated_author_id = (int) pkeyResultSet.getLong(1);
