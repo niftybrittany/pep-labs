@@ -42,7 +42,7 @@ public class AuthorService {
     public List<Author> getAllAuthors(
         
     ) {
-        return null;
+        return ;
     }
     /**
      * TODO: Use the AuthorDAO to persist an author. The given Author will not have an id provided.
@@ -51,6 +51,6 @@ public class AuthorService {
      * @return The persisted author if the persistence is successful.
      */
     public Author addAuthor(Author author) {
-        return null;
+        return authorDAO.add(author);
     }
 }
