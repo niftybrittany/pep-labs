@@ -56,7 +56,7 @@ public class AuthorDAO {
             String sql = "INSERT INTO Author (name) VALUES(?)";
             PreparedStatement preparedStatement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
 
-            //write preparedStatement's setString method here.
+           
             preparedStatement.setString(1,author.getName());
 
             preparedStatement.executeUpdate();
