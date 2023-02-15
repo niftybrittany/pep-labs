@@ -42,10 +42,10 @@
   :count_labs_total: 96
   :count_labs_passed: 0
   :count_tests_total: 361
-  :count_tests_passed: 2
+  :count_tests_passed: 1
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 2
+  :count_tests_passed: 1
   Start:
     :Week: 1
     :Order: 1
@@ -721,7 +721,7 @@
     :Order: 13
     :Type: project
     :count_tests: 13
-    :count_tests_passed: 2
+    :count_tests_passed: 1
     :tests:
       getAllFlightsTest1: 0
       getFlightByIDTest1: 0
