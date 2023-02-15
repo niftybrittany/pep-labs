@@ -32,7 +32,7 @@ public class AuthorService {
      * @param authorDAO
      */
     public AuthorService(AuthorDAO authorDAO){
-        
+        this.authorDAO = authorDAO;
     }
     /**
      * TODO: Use the AuthorDAO to retrieve all authors.
