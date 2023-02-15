@@ -42,10 +42,10 @@
   :count_labs_total: 96
   :count_labs_passed: 0
   :count_tests_total: 361
-  :count_tests_passed: 1
+  :count_tests_passed: 2
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 1
+  :count_tests_passed: 2
   Start:
     :Week: 1
     :Order: 1
@@ -721,7 +721,7 @@
     :Order: 13
     :Type: project
     :count_tests: 13
-    :count_tests_passed: 1
+    :count_tests_passed: 2
     :tests:
       getAllFlightsTest1: 0
       getFlightByIDTest1: 0
@@ -736,6 +736,19 @@
       getFlightsFromCityToCityTest1: 0
       updateFlightTest1: 0
       updateFlightTestNonExistent: 1
+      getBookByIsbnTest: 0
+      addBookVerifyNullOnUnsuccessfulAdd: 1
+      addAuthorTest: 0
+      addBookVerifyNotNullOnSuccessfulAddTest: 0
+      insertAuthorCheckWithGetAllTest: 0
+      insertBookCheckWithGetByIdTest: 0
+      insertBookCheckWithGetAllTest: 0
+      getAllBooksTest: 1
+      getAllAuthorsServiceTest: 0
+      getAllBooksTest1: 0
+      getBooksWithBookCountOverZeroTest: 0
+      getAllAuthorsDAOTest: 0
+      getAllAvailableBooksTest: 0
   ForeignKey:
     :Week: 6
     :Order: 1
