@@ -42,10 +42,10 @@
   :count_labs_total: 96
   :count_labs_passed: 0
   :count_tests_total: 361
-  :count_tests_passed: 1
+  :count_tests_passed: 0
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 1
+  :count_tests_passed: 0
   Start:
     :Week: 1
     :Order: 1
@@ -691,11 +691,13 @@
     :Order: 10
     :Type: challenge
     :count_tests: 3
-    :count_tests_passed: 1
+    :count_tests_passed: 0
     :tests:
       indexTest1: 0
       indexTest2: 0
       indexTest3: 1
+      combineArraysTest1: 0
+      combineArraysTest2: 0
   IsSorted:
     :Week: 5
     :Order: 11
