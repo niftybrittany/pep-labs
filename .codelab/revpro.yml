@@ -40,12 +40,12 @@
     :git_user_name: Brittany Glaze
 :progress:
   :count_labs_total: 96
-  :count_labs_passed: 0
+  :count_labs_passed: 1
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 5
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 5
   Start:
     :Week: 1
     :Order: 1
@@ -1001,13 +1001,13 @@
     :Order: 1
     :Type: challenge
     :count_tests: 5
-    :count_tests_passed: 0
+    :count_tests_passed: 5
     :tests:
-      StringReverseTest1: 0
-      StringReverseTest2: 0
-      StringReverseTest3: 0
-      StringReverseTest4: 0
-      StringReverseTest5: 0
+      StringReverseTest1: 1
+      StringReverseTest2: 1
+      StringReverseTest3: 1
+      StringReverseTest4: 1
+      StringReverseTest5: 1
   LargestSum:
     :Week: 9
     :Order: 2
