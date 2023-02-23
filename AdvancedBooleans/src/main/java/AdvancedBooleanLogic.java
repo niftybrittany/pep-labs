@@ -17,16 +17,17 @@ public class AdvancedBooleanLogic {
      */
     public boolean returnNotBoth(boolean b1, boolean b2){
         
-        return false;
+        return !(b1 && b2);
     }
     /**
      * b1 OR b2, BUT NOT BOTH
      * @param b1 first boolean to be compared.
      * @param b2 second boolean to be compared.
-     * @return true if either b1 or b2 is true, but false if they are both true or both false.
+     * @return true if either are true, false if both are true or both are false.
      */
     public boolean returnExclusiveOr(boolean b1, boolean b2){
-        return false;
+        
+        return (b1 || b2) && !(b1&&b2 || !b1&&!b2);
     }
 
     /**
@@ -36,6 +37,6 @@ public class AdvancedBooleanLogic {
      * @return true if neither b1 nor b2 are true. Return false if either b1 or b2 is true.
      */
     public boolean returnNeitherNor(boolean b1, boolean b2){
-        return false;
+        return !(b1||b2);
     }
 }
