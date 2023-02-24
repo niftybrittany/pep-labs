@@ -1,4 +1,4 @@
-
+import com.fasterxml.jackson.databind.ser.std.NumberSerializer;
 
 public class InsertPosition {
 
@@ -15,6 +15,13 @@ public class InsertPosition {
      * @return return the index that a number should be inserted into a sorted array.
      */
     public int searchInsert(int[] nums, int target) {
-        return -1;
+       int index = -1;
+        for(int i = 0; i<nums.length;i++){
+            if(target < nums[i] && target > nums[i-1]){
+                index = i;
+            }
+        }
+        return index;
     }
+
 }
