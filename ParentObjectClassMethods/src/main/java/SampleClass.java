@@ -53,7 +53,15 @@
  */
 public class SampleClass {
     public int a;
+    public String name;
     public boolean b;
+
+    public boolean equals(SampleClass other){
+        SampleClass sample1 = new SampleClass(1, );
+        SampleClass sample2 = new SampleClass(1, );
+
+        b = emp1.equals(emp2);
+    }
 
     //    implement a custom .equals(SampleClass other){} method here.
 
