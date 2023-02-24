@@ -14,9 +14,9 @@ public class CharComparison {
      */
     public int compare(char[] a, char[] b){
         int outcome = 0;
-        
+
         for (int i = 0; i<a.length && i<b.length;i++){
-            if(a[i]<b){
+            if(a[i]<b[i]){
                 outcome = -1;
             }
             else if(a[i]>b[i]){
@@ -25,6 +25,7 @@ public class CharComparison {
                 return 0;
             }
         }
+        return outcome;
     }
 }
         
@@ -32,9 +33,6 @@ public class CharComparison {
 
 
 
-            
-    }
-}    
             
        
        

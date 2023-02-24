@@ -1,7 +1,7 @@
 ---
 :lab_name: pep-labs
 :repo_path: "/workspace/revpro-cli/pep-labs"
-:previous_lab: 
+:previous_lab: CharComparison
 :current_lab: CharComparison
 :origin_remote: https://github.com/niftybrittany/pep-labs
 :repo_clone_folder: "/workspace/revpro-cli/pep-labs"
@@ -42,10 +42,10 @@
   :count_labs_total: 96
   :count_labs_passed: 0
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 3
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 3
   Start:
     :Week: 1
     :Order: 1
@@ -965,12 +965,12 @@
     :Order: 6
     :Type: challenge
     :count_tests: 4
-    :count_tests_passed: 0
+    :count_tests_passed: 3
     :tests:
       charCompareTest1: 0
-      charCompareTest2: 0
-      charCompareTest3: 0
-      charCompareTest4: 0
+      charCompareTest2: 1
+      charCompareTest3: 1
+      charCompareTest4: 1
   Isogram:
     :Week: 8
     :Order: 7
