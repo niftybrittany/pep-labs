@@ -17,9 +17,7 @@ public class InsertPosition {
     public int searchInsert(int[] nums, int target) {
        int index = -1;
         for(int i = 0; i<nums.length;i++){
-            if(nums.length==1 && target < nums[i]){
-                index = i;
-            } else if (target < nums[i] && target > nums[i-1]){
+            if(nums.length==1 && target < nums[i] || target < nums[i] && target > nums[i-1]){
                 index = i;
             }else if (target > nums[i]){
                 index = i+1;
