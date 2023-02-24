@@ -1,4 +1,4 @@
-/**
+ /**
  * Notice that we are IMPLEMENTING the comparable interface, for type of ObjectToBeCompared.
  * This means that we must implement a method compareTo, otherwise the code will not compile. This compareTo method
  * was first defined in the Comparable interface, which is provided by Java by default, but is also duplicated in the
