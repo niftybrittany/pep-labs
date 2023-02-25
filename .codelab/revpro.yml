@@ -2,7 +2,7 @@
 :lab_name: pep-labs
 :repo_path: "/workspace/revpro-cli/pep-labs"
 :previous_lab: 
-:current_lab: 
+:current_lab: WordCountMap
 :origin_remote: https://github.com/niftybrittany/pep-labs
 :repo_clone_folder: "/workspace/revpro-cli/pep-labs"
 :github_username: niftybrittany
@@ -40,12 +40,12 @@
     :git_user_name: Brittany Glaze
 :progress:
   :count_labs_total: 96
-  :count_labs_passed: 0
+  :count_labs_passed: 1
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 3
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 3
   Start:
     :Week: 1
     :Order: 1
@@ -1067,8 +1067,8 @@
     :Order: 3
     :Type: challenge
     :count_tests: 3
-    :count_tests_passed: 0
+    :count_tests_passed: 3
     :tests:
-      wordCountTest1: 0
-      wordCountTest2: 0
-      wordCountTest3: 0
+      wordCountTest1: 1
+      wordCountTest2: 1
+      wordCountTest3: 1
