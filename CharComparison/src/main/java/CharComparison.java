@@ -14,7 +14,7 @@ public class CharComparison {
      */
     public int compare(char[] a, char[] b){
         int outcome = 0;
-        
+    
         for (int i = 0; i<a.length && i<b.length;i++){
             if(a[i]<b[i]){
                 outcome = -1;
